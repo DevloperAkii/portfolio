@@ -90,6 +90,14 @@ export default function PortfolioWebsite() {
               >
                 Play Games
               </a>
+              <a
+                href="https://drive.google.com/file/d/1ciXhf20z33edFfqrq_ALenCM-9n4kSV0/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border border-zinc-700 px-6 py-3 rounded-2xl hover:bg-zinc-900 transition"
+              >
+                Resume
+              </a>
             </div>
           </div>
         </section>
