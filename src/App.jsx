@@ -16,7 +16,7 @@ export default function PortfolioWebsite() {
       playableLink: "https://maziminds.itch.io/casual-runner",
       demoLink: "",
       sourceCode: "",
-      image: "https://img.itch.zone/aW1nLzE5NTkwMDMwLnBuZw==/315x250%23c/N2llC%2F.png",
+      image: "",
     },
     {
       title: "Fast & Foolish",
