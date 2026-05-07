@@ -2,29 +2,29 @@ export default function PortfolioWebsite() {
   const projects = [
     {
       title: "Butt Slide",
-      desc: "Self-developed Game jam project completed within in 7 days.",
+      desc: "Solo-developed game jam project completed within 7 days during a 9-day game jam. Designed and implemented gameplay systems, core mechanics, and environment art independently using Unity and C#. Integrated third-party character and audio assets while managing the full development workflow from prototype to final build.",
       tech: ["Unity", "C#","Web", "PC", "Gameplay Programming", "Environment Design", "Game Design"],
       playableLink: "https://akshit-patel.itch.io/butt-slide",
       demoLink: "",
-      sourceCode: "https://github.com/yourusername/project",
+      sourceCode: "https://github.com/DevloperAkii/ButtSkiing.git",
       image: "https://img.itch.zone/aW1nLzI1NDQyODIyLnBuZw==/315x250%23c/Z15%2FYD.png"
     },
     {
       title: "Alien Blaster",
-      desc: "Collaborative Android game project developed with a small team. Focused on gameplay logic, player interaction, and core systems.",
+      desc: "Collaboratively developed an Android game within a 3-person team, primarily handling gameplay programming, game design, polish, animation integration, and overall gameplay implementation using Unity and C#. Worked closely with an artist/composer responsible for visual and audio assets.",
       tech: ["Unity", "C#", "Android", "Gameplay Programming", "AI Programming", "Combat Design & Development", "Team Collaboration"],
       playableLink: "https://maziminds.itch.io/casual-runner",
       demoLink: "",
-      sourceCode: "https://github.com/yourusername/project",
+      sourceCode: "",
       image: "https://img.itch.zone/aW1nLzE5NTkwMDMwLnBuZw==/315x250%23c/N2llC%2F.png",
     },
     {
       title: "Fast & Foolish",
-      desc: "Collaborative Android game project developed with a small team. Fouced on car racing on amazing tracks.",
+      desc: "Contributed to the development of a collaborative Android racing game project within an 8-member multidisciplinary team. Assisted with gameplay implementation and procedural animation systems to enhance vehicle interaction and gameplay responsiveness across dynamic racing environments.",
       tech: ["Unity","C#", "Android", "Gameplay Programming", "Team Collaboration"],
       playableLink: "https://maziminds.itch.io/car-racing",
       demoLink: "https://youtu.be/9zFbMX0tB3M?si=PXMVfqp5qAuBdxAp",
-      sourceCode: "https://github.com/yourusername/project",
+      sourceCode: "",
       image: "https://img.itch.zone/aW1nLzIwODA5MzcwLnBuZw==/315x250%23c/QVWujA.png",
     },
   ];
@@ -205,15 +205,16 @@ export default function PortfolioWebsite() {
                         Demo
                       </a>
                     )}
-
-                    <a
-                      href={project.sourceCode}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="border border-zinc-700 px-4 py-2 rounded-xl hover:bg-zinc-800 transition"
-                    >
-                      Source Code
-                    </a>
+                    {project.sourceCode && (
+                      <a
+                        href={project.sourceCode}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="border border-zinc-700 px-4 py-2 rounded-xl hover:bg-zinc-800 transition"
+                      >
+                        Source Code
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>
