@@ -7,7 +7,7 @@ export default function PortfolioWebsite() {
       playableLink: "https://akshit-patel.itch.io/butt-slide",
       demoLink: "",
       sourceCode: "https://github.com/DevloperAkii/ButtSkiing.git",
-      image: "https://img.itch.zone/aW1nLzI1NDQyODIyLnBuZw==/315x250%23c/Z15%2FYD.png"
+      image: "/ButtSlideLogo.png"
     },
     {
       title: "Alien Blaster",
@@ -16,7 +16,7 @@ export default function PortfolioWebsite() {
       playableLink: "https://maziminds.itch.io/casual-runner",
       demoLink: "",
       sourceCode: "",
-      image: "",
+      image: "/ButtSlideLogo.png",
     },
     {
       title: "Fast & Foolish",
@@ -25,7 +25,7 @@ export default function PortfolioWebsite() {
       playableLink: "https://maziminds.itch.io/car-racing",
       demoLink: "https://youtu.be/9zFbMX0tB3M?si=PXMVfqp5qAuBdxAp",
       sourceCode: "",
-      image: "https://img.itch.zone/aW1nLzIwODA5MzcwLnBuZw==/315x250%23c/QVWujA.png",
+      image: "/Fast&Foolish.png",
     },
   ];
 
